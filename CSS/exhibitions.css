@@ -1,0 +1,69 @@
+main {
+  max-width: 2000px;
+  margin: auto 200px;
+}
+
+.explore {
+  background-color: var(--yellow);
+  width: 920px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.explore img {
+  width: 920px;
+}
+
+.explore-text {
+  margin: auto 40px;
+}
+
+.robotics {
+  background-color: var(--turquoise);
+  width: 580px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.robotics img {
+  width: 580px;
+}
+
+.robotics-text {
+  margin: auto 40px;
+}
+
+.sky {
+  background-color: var(--blue);
+  width: 580px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.sky img {
+  width: 580px;
+}
+
+.sky-text {
+  color: var(--white);
+  margin: auto 40px;
+}
+
+.evolution {
+  background-color: var(--orange);
+  width: 290px;
+  margin-bottom: 40px;
+}
+
+.evolution h2 {
+  padding-top: 20px;
+}
+
+.evolution img {
+  width: 290px;
+  margin-bottom: -5px;
+}
+
+.evolution-text {
+  margin: auto 40px;
+}

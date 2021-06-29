@@ -1,0 +1,57 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Extra Bold";
+  src: url("fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Open Sans Regular";
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
+nav li {
+  display: inline-block;
+  padding: 5px;
+  margin: auto 100px auto auto;
+}
+
+header h1 {
+  font-family: "Poppins Extra Bold";
+}
+
+header a {
+  text-decoration: none;
+}
+
+footer {
+  width: 920px;
+  margin: 50px auto;
+  text-align: center;
+  border-top: 1px solid var(--grey);
+}
+
+footer a {
+  padding: 5px;
+  margin: auto;
+}
+
+footer p {
+}

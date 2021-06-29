@@ -1,0 +1,38 @@
+main {
+  max-width: 2000px;
+  margin: auto 200px;
+}
+
+.contact {
+  background-color: var(--yellow);
+  width: 920px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.contact h1 {
+  margin: 40px;
+  padding-top: 40px;
+}
+
+.contact p {
+  margin: 20px 40px;
+}
+
+.float {
+  float: right;
+  width: 430px;
+  margin-left: 50px;
+}
+
+.form {
+  width: 300px;
+  margin: 40px;
+  padding: 0px;
+  display: block;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+}
