@@ -41,6 +41,23 @@ header a {
   text-decoration: none;
 }
 
+.logo {
+  background: linear-gradient(to right, var(--blue), var(--dark-blue));
+  padding: 20px 50px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.logo h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.logo p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
 footer {
   width: 920px;
   margin: 50px auto;
