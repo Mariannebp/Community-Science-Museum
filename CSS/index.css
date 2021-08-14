@@ -1,6 +1,9 @@
 main {
   max-width: 2000px;
-  margin: auto 200px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  justify-self: center;
 }
 
 .welcome {
@@ -31,13 +34,6 @@ main {
 .explore__home-page img {
   width: 350px;
   margin: auto -4px -4px auto;
-}
-
-.opening-hours {
-  border: 1px solid var(--grey);
-  width: 180px;
-  padding: 10px 30px;
-  margin-bottom: 40px;
 }
 
 .events {
