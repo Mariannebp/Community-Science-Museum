@@ -1,61 +1,66 @@
 main {
-    max-width: 2000px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 40px;
-    justify-self: center;
-  }
+  max-width: 2000px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  justify-self: center;
+}
   
-  .visit-us {
-    background-color: var(--turquoise);
-    width: 700px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-  }
+.visit-us {
+  background-color: var(--turquoise);
+  width: 700px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+ }
   
-  .visit-us img {
-    width: 700px;
-  }
+.visit-us img {
+ width: 700px;
+}
   
-  .visit-us-text {
-    margin: auto 40px;
-  }
+.visit-us-text {
+  margin: auto 40px;
+}
 
-  .facilities {
-    background-color: var(--yellow);
-    width: 700px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-  }
+.facilities {
+  background-color: var(--yellow);
+  width: 700px;
+  height: 588px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
   
-  .facilities h2 {
-    margin: 20px 40px;
-    padding-top: 40px;
-  }
+.facilities h2 {
+  margin: 20px 40px;
+  padding-top: 40px;
+}
   
-  .facilities h3 {
-    font-weight: 500;
-    margin: auto 40px;
-  }
+.facilities h3 {
+  font-weight: 500;
+  margin: auto 40px;
+}
   
-  .facilities p {
-    margin: auto 40px 20px 40px;
-  }
+.facilities p {
+  margin: auto 40px 20px 40px;
+}
 
-  .float {
-    float: right;
-    height: 571px;
-    margin-left: 50px;
-  }
+.float {
+  float: right;
+  height: 100%;
+  margin-left: 50px;
+}
 
-  .tickets {
-    background-color: var(--orange);
-    width: 182px;
-    padding: 10px 30px;
-    margin-bottom: 40px;
-  }
+.tickets {
+  background-color: var(--orange);
+  width: 182px;
+  padding: 10px 30px;
+  margin-bottom: 40px;
+}
 
-  .tickets form {
-    display: ;
-  }
+.tickets_form {
+  width: 152px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  display: block;
+}  
   

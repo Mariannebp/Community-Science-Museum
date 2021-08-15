@@ -19,7 +19,7 @@ body {
   grid-template-rows: auto 1fr auto;
   justify-items: center;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 40px;
 }
 
 h1,
@@ -83,12 +83,10 @@ footer {
   margin: 50px auto;
   text-align: center;
   border-top: 1px solid var(--grey);
+  
 }
 
 footer a {
   padding: 5px;
-  margin: auto;
-}
-
-footer p {
+  margin-top: 20px;
 }

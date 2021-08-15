@@ -80,12 +80,11 @@
             <h3>TICKETS FOR GUIDED TOURS</h3>
             <form action="submit.php" method="POST">
               <label for="name">Name</label>
-              <input type="text" name="name">
+              <input type="text" name="name" class="tickets_form">
               <label for="email">Email</label>
-              <input type="text" name="email">
-              <select name="date" id="date">
+              <input type="text" name="email" class="tickets_form">
+              <select name="date" id="date" class="tickets_form">
                 <option value="date">Date</option>
-                <option value="monday">Monday</option>
                 <option value="tuesday">Tuesday</option>
                 <option value="wednesday">Wednesday</option>
                 <option value="thursday">Thursday</option>
@@ -93,7 +92,7 @@
                 <option value="saturday">Saturday</option>
                 <option value="sunday">Sunday</option>
               </select>
-              <select name="time" id="time">
+              <select name="time" id="time" class="tickets_form">
                 <option value="time">Time</option>
                 <option value="10:00">10:00</option>
                 <option value="11:00">11:00</option>
@@ -102,7 +101,7 @@
                 <option value="14:00">14:00</option>
                 <option value="15:00">15:00</option>
               </select>
-              <select name="quantity" id="quantity">
+              <select name="quantity" id="quantity" class="tickets_form">
                 <option value="quantity">Quantity</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -110,7 +109,7 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
               </select>
-              <input type="submit" value="Send" class="cta" />
+              <input type="submit" value="Send" class="cta" class="tickets_form"/>
             </form>
             <p>Price: 70 NOK pr. person</p>
             <p>For groups with 6 persons or more, please <a href="contact.html">Contact Us</a> for booking.</p>

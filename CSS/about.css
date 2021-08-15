@@ -1,10 +1,8 @@
-main {
-}
 
 .about {
   background-color: var(--yellow);
   width: 920px;
-  padding-bottom: 20px;
+  height: 610px;
   margin-bottom: 40px;
 }
 
@@ -19,7 +17,6 @@ main {
 
 .float {
   float: right;
-  width: 430px;
-  height: 592px;
+  height: 100%;
   margin-left: 50px;
 }
