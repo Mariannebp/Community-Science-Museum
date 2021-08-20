@@ -1,10 +1,8 @@
 main {
   max-width: 2000px;
-  margin: auto 200px;
-}
-
-.logo {
-  background: ;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
 }
 
 .welcome {
@@ -37,16 +35,20 @@ main {
   margin: auto -4px -4px auto;
 }
 
-.opening-hours {
-  border: 1px solid var(--grey);
-  width: 180px;
-  padding: 10px 30px;
-  margin-bottom: 40px;
-}
-
 .events {
   background-color: var(--turquoise);
   width: 182px;
   padding: 10px 30px;
-  margin-bottom: 40px;
+}
+
+.events p {
+  margin: 6px auto;
+}
+
+.events div {
+  margin-bottom: 30px;
+}
+
+.events_eventtype {
+  font-style: italic;
 }

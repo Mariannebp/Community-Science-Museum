@@ -1,32 +1,46 @@
-main {
-  max-width: 2000px;
-  margin: auto 200px;
+.exhibitions-grid-container {
+  width: 1008px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+    "explore explore"
+    "robotics evolution"
+    "sky evolution";
 }
 
 .explore {
   background-color: var(--yellow);
-  width: 920px;
+  width: 1008px;
   margin-bottom: 40px;
   padding-bottom: 20px;
+  grid-area: explore;
 }
 
 .explore img {
-  width: 920px;
+  width: 1008px;
 }
 
 .explore-text {
   margin: auto 40px;
 }
 
+.exhbitions {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  justify-self: center;
+}
+
 .robotics {
   background-color: var(--turquoise);
-  width: 580px;
+  width: 650px;
   margin-bottom: 40px;
   padding-bottom: 20px;
+  grid-area: robotics;
 }
 
 .robotics img {
-  width: 580px;
+  width: 650px;
 }
 
 .robotics-text {
@@ -35,13 +49,14 @@ main {
 
 .sky {
   background-color: var(--blue);
-  width: 580px;
+  width: 650px;
   margin-bottom: 40px;
   padding-bottom: 20px;
+  grid-area: sky;
 }
 
 .sky img {
-  width: 580px;
+  width: 650px;
 }
 
 .sky-text {
@@ -52,7 +67,9 @@ main {
 .evolution {
   background-color: var(--orange);
   width: 290px;
+  height: 1193px;
   margin-bottom: 40px;
+  grid-area: evolution;
 }
 
 .evolution h2 {

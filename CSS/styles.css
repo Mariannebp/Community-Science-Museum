@@ -17,7 +17,8 @@ body {
   font-family: "Open Sans Regular";
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  justify-items: center;
+  height: 100vh;
   margin: 0;
 }
 
@@ -33,6 +34,13 @@ nav li {
   margin: auto 100px auto auto;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  width: 1100px;
+}
+
 header h1 {
   font-family: "Poppins Extra Bold";
 }
@@ -41,17 +49,51 @@ header a {
   text-decoration: none;
 }
 
+.logo {
+  background: linear-gradient(to right, var(--blue), var(--dark-blue));
+  padding: 20px 50px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.logo h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.logo p {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+main {
+  margin-top: 40px;
+  max-width: 1024px;
+}
+
+.opening-hours {
+  border: 1px solid var(--grey);
+  width: 180px;
+  padding: 10px 30px;
+  margin-bottom: 40px;
+}
+
 footer {
-  width: 920px;
+  width: 1100px;
   margin: 50px auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
   border-top: 1px solid var(--grey);
+  
+}
+
+footer div {
+  padding: 5px;
+  margin: 20px 100px;
 }
 
 footer a {
-  padding: 5px;
-  margin: auto;
-}
-
-footer p {
+  text-decoration: none;
 }
