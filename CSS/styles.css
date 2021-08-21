@@ -29,7 +29,7 @@ h3 {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   z-index: 1;
   top: 0px;
   background-color: var(--white);
