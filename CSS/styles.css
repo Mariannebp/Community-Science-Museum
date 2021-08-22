@@ -5,6 +5,14 @@
   src: url("fonts/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Open Sans SemiBold";
+  src: url("fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
   font-family: "Poppins";
   src: url("fonts/Poppins-Regular.ttf") format("truetype");
 }
@@ -36,45 +44,12 @@ header {
   width: 1100px;
 }
 
-nav ul {
-  margin: 10px 0 10px 0px;
-}
-
-nav li {
-  display: inline-block;
-  padding: 5px;
-  margin-right: 100px;
-  position: relative;
-}
-
-.nav_hover {
-  position: relative;
-  overflow: hidden;
-}
-
-.nav_hover:before {
-  content: "";
-  background: var(--black);
-  position: absolute;
-  width: 90px;
-  padding: 1px;
-  top: 30px;
-  left: -95px;
-  transition: left ease-in-out 0.6s;
-}
-
-.nav_hover:hover:before {
-  left: 0;
-}
-
-.active {
-  font-weight: 600;
-}
 header h1 {
   font-family: "Poppins Extra Bold";
 }
 
-header a {
+header a,
+footer a {
   text-decoration: none;
 }
 
@@ -131,8 +106,4 @@ footer {
 footer div {
   padding: 5px;
   margin: 20px 100px;
-}
-
-footer a {
-  text-decoration: none;
 }
