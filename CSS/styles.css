@@ -96,10 +96,10 @@ header a {
 }
 
 main {
-  margin-top: 40px;
+  margin-top: 30px;
   max-width: 1024px;
-  animation: fade-in-main 1s forwards;
-  opacity: 0;
+  aniation: fade-in-main 1s forwards;
+  oacity: 0;
 }
 
 @keyframes fade-in-main {
