@@ -4,7 +4,111 @@
 
 
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
+header {
+    width: 801px;
+}
 
+main {
+    gap:20px
+}
+
+.welcome,
+.explore__home-page,
+.visit-us,
+.facilities {
+    width: 580px;
+}
+
+.welcome img,
+.visit-us img {
+    width: 580px;
+}
+
+.opening-hours,
+.events,
+.tickets {
+    width: 160px;
+    padding: 15px;
+}
+
+.about,
+.contact {
+    width: 760px;
+}
+
+footer {
+    width: 801px;
+}
+
+/* Home Page */
+.explore__home-page {
+    height: 525px;
+}
+
+.explore__home-page img {
+    width: 290px;
+}
+
+/* Exhibitions */
+.exhibitions-grid-container {
+    width: 760px;
+}
+
+.explore {
+    margin-bottom: 20px;
+}
+
+.explore,
+.explore img {
+    width: 780px;
+}
+
+.robotics,
+.sky,
+.robotics img,
+.sky img {
+    width: 500px;
+}
+
+.evolution,
+.evolution img {
+    width: 260px;
+}
+
+/* Visit Us */
+.facilities h2,
+.facilities h3,
+.facilities p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facilities h2 {
+    padding-top: 30px;
+}
+
+.facilities h3 {
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.facilities p {
+    margin-top: 0px;
+}
+
+.float {
+    height: 540px;
+    margin-left: 20px;
+    left: ;
+}
+
+.tickets_form {
+    width: 140px;
+}
+
+/* About Us */
+
+
+/* Contact Us */
 }
 
 
