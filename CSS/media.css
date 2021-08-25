@@ -183,16 +183,25 @@
     .welcome,
     .explore__home-page,
     .facilities,
+    .explore,
+    .robotics,
+    .sky,
+    .evolution,
+    .visit-us,
+    .facilities,
+    .tickets,
+    .about,
+    .contact,
     .welcome img,
+    .visit-us img,
+    .explore img,
+    .robotics img,
+    .sky img,
+    .evolution img,
     .visit-us img {
         width: 580px;
     }
-    
-    .about,
-    .contact {
-        width: 581px;
-    }
-        
+
     footer {
         width: 601px;
     }
@@ -229,29 +238,35 @@
     /* Exhibitions */
     .exhibitions-grid-container {
         display: block;
+        width: 601px;
     }
 
-    .explore,
-    .robotics,
-    .sky,
-    .evolution,
-    .explore img,
-    .robotics img,
-    .sky img,
-    .evolution img {
-        width: 580px;
+    .evolution {
+        height: 1416px;
     }
 
     /* Visit Us */
+    .facilities .float {
+        float: none;
+        width: 580px;
+        margin: 0;
+    }
+    
+    .visit-us .opening-hours {
+
+    }
+    
     .tickets {
-        width: 160px;
-        padding: 15px;
+        width: 520px;
+        margin: 40px;
+    }
+
+    .tickets_form {
+        width: 400px;
     }
 
     /* About Us */
-    .float {
-        
-    }
+
 
     /* Contact Us */
 
