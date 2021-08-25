@@ -16,7 +16,7 @@
     h3 {
         font-size: 1.1em;
     }
-    
+
     p {
         font-size: 0.9em;
     }
@@ -111,7 +111,7 @@
         margin-bottom: 0;
     }
     .facilities p {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .facilities .float {
@@ -128,8 +128,6 @@
         height: 540px;
     }
     
-    
-
     .about .float {
         height: 540px;
         margin-left: 20px;
@@ -146,7 +144,6 @@
     .contact_form {
         width: 250px;
     }
-
 }
 
 
@@ -170,7 +167,19 @@
     main {
         display: block;
     }
-        
+    
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
     .welcome,
     .explore__home-page,
     .facilities,
@@ -202,7 +211,7 @@
     .events {
         display: inline-block;
         width: 200px;
-        margin-bottom: 40px;
+        margin: 40px auto;
     }
 
     .opening-hours {
@@ -218,7 +227,20 @@
     }
 
     /* Exhibitions */
+    .exhibitions-grid-container {
+        display: block;
+    }
 
+    .explore,
+    .robotics,
+    .sky,
+    .evolution,
+    .explore img,
+    .robotics img,
+    .sky img,
+    .evolution img {
+        width: 580px;
+    }
 
     /* Visit Us */
     .tickets {
