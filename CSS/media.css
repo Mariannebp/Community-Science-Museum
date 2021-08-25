@@ -12,6 +12,15 @@
         gap: 20px;
     }
 
+
+    h3 {
+        font-size: 1.1em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+
     .welcome,
     .explore__home-page,
     .visit-us,
@@ -34,6 +43,11 @@
     .about,
     .contact {
         width: 760px;
+    }
+
+    .about h1,
+    .contact h1 {
+        margin-bottom: 20px;
     }
 
     footer {
@@ -76,6 +90,11 @@
     }
 
     /* Visit Us */
+    .facilities {
+        height: 540px;
+        padding-bottom: 0;
+    }
+    
     .facilities h2,
     .facilities h3,
     .facilities p {
@@ -88,14 +107,14 @@
     }
 
     .facilities h3 {
-        padding-bottom: 5px;
-        margin-bottom: 0px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     .facilities p {
         margin-top: 0px;
     }
 
-    .float {
+    .facilities .float {
         height: 540px;
         margin-left: 20px;
     }
@@ -105,9 +124,29 @@
     }
 
     /* About Us */
+    .about {
+        height: 540px;
+    }
+    
+    
 
+    .about .float {
+        height: 540px;
+        margin-left: 20px;
+    }
 
-    /* Contact Us */
+    /* Contact Us */    
+    .contact .float {
+        margin-left: 20px;
+    }   
+    .form {
+        margin: auto 20px auto 40px;
+      }
+    
+    .contact_form {
+        width: 250px;
+    }
+
 }
 
 
@@ -120,6 +159,14 @@
         margin-right: 50px;
     }
 
+    .logo h1 {
+        font-size: 1.7em;
+    }
+
+    .logo p {
+        font-size: 1.2em;
+        margin-left: 285px;
+    }
     main {
         display: block;
     }
@@ -131,17 +178,14 @@
     .visit-us img {
         width: 580px;
     }
-
-
     
-        
     .about,
     .contact {
-        width: 760px;
+        width: 581px;
     }
         
     footer {
-        width: 801px;
+        width: 601px;
     }
 
 
@@ -183,7 +227,9 @@
     }
 
     /* About Us */
-
+    .float {
+        
+    }
 
     /* Contact Us */
 
