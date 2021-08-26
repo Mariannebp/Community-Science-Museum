@@ -125,16 +125,20 @@
 
     /* About Us */
     .about {
-        height: 540px;
+        height: 570px;
     }
-    
-    .about .float {
-        height: 540px;
-        margin-left: 20px;
+
+    .about img {
+        width: 380px;
+        height: 570px;
+    }
+
+    .about_text {
+
     }
 
     /* Contact Us */    
-    .contact .float {
+    .contact {
         margin-left: 20px;
     }   
     .form {
@@ -266,7 +270,23 @@
     }
 
     /* About Us */
+    .about {
+        display: block;
+        height: 900px;
+        overflow: hidden;
+    }
 
+    .about_text {
+        margin-bottom: 40px;
+    }
+
+    .about h1 {
+        margin: 30px 40px;
+    }
+
+    .about img {
+        height: 500px;
+    }
 
     /* Contact Us */
 

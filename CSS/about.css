@@ -1,21 +1,20 @@
 .about {
   background-color: var(--yellow);
+  display: flex;
   width: 920px;
   height: 610px;
-  margin-bottom: 40px;
 }
 
 .about h1 {
   margin: 40px;
-  padding-top: 40px;
 }
 
 .about p {
   margin: 20px 40px;
 }
 
-.float {
-  float: right;
-  height: 100%;
-  margin-left: 50px;
+.about img {
+  height: 610px;
 }
+
+
