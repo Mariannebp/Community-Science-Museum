@@ -170,6 +170,7 @@
     }
     main {
         display: block;
+        margin-top: 10px;
     }
     
     h1 {
@@ -272,7 +273,7 @@
     /* About Us */
     .about {
         display: block;
-        height: 900px;
+        height: 1050px;
         overflow: hidden;
     }
 
@@ -281,15 +282,32 @@
     }
 
     .about h1 {
-        margin: 30px 40px;
+        padding-top: 30px;
     }
 
     .about img {
-        height: 500px;
+        height: 100%;
+        width: 100%;
     }
 
     /* Contact Us */
+    .contact {
+        display: block;
+        height: 1375px;
+    }
 
+    .contact h1 {
+        padding-top: 30px;
+    }
+
+    .contact img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 450px;
+    }
 }
 
 
