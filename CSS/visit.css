@@ -3,7 +3,7 @@ main {
   grid-template-columns: 3fr 1fr;
   gap: 40px;
 }
-  
+
 .visit-us {
   background-color: var(--turquoise);
   width: 700px;
@@ -21,12 +21,11 @@ main {
 
 .facilities {
   background-color: var(--yellow);
+  display: flex;
   width: 700px;
-  height: 588px;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
+  height: 608px;
 }
-  
+
 .facilities h2 {
   margin: 20px 40px;
   padding-top: 40px;
@@ -41,10 +40,8 @@ main {
   margin: auto 40px 20px 40px;
 }
 
-.float {
-  float: right;
-  height: 100%x;
-  margin-left: 50px;
+.about img {
+  height: 610px;
 }
 
 .tickets {

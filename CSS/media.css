@@ -89,10 +89,15 @@
         width: 260px;
     }
 
+    .evolution {
+        height: 1097px;
+    }
+
     /* Visit Us */
     .facilities {
-        height: 540px;
+        height: 740px;
         padding-bottom: 0;
+        overflow: hidden;
     }
     
     .facilities h2,
@@ -110,13 +115,13 @@
         padding-bottom: 0;
         margin-bottom: 0;
     }
+    
     .facilities p {
         margin-top: 0;
     }
 
-    .facilities .float {
-        height: 540px;
-        margin-left: 20px;
+    .facilities img {
+        height: 710px;
     }
 
     .tickets_form {
@@ -279,10 +284,6 @@
 
     .about_text {
         margin-bottom: 40px;
-    }
-
-    .about h1 {
-        padding-top: 30px;
     }
 
     .about img {
