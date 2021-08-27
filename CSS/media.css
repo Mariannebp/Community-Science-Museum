@@ -24,10 +24,7 @@
     .welcome,
     .explore__home-page,
     .visit-us,
-    .facilities {
-        width: 580px;
-    }
-
+    .facilities,
     .welcome img,
     .visit-us img {
         width: 580px;
@@ -138,14 +135,11 @@
         height: 570px;
     }
 
-    .about_text {
-
-    }
-
     /* Contact Us */    
     .contact {
         margin-left: 20px;
-    }   
+    }
+
     .form {
         margin: auto 20px auto 40px;
       }
@@ -173,6 +167,7 @@
         font-size: 1.2em;
         margin-left: 285px;
     }
+
     main {
         display: block;
         margin-top: 10px;
@@ -212,6 +207,18 @@
         width: 580px;
     }
 
+    .exhibitions-grid-container,
+    .about,
+    .contact {
+        display: block;
+    }
+
+    .contact img,
+    .about img {
+        height: 100%;
+        width: 100%;
+    }
+
     footer {
         width: 601px;
     }
@@ -226,28 +233,14 @@
         width: 290px;
     }
 
-    .opening-hours,
-    .events {
-        display: inline-block;
-        width: 200px;
-        margin: 40px auto;
+    .info__home-page {
+        display: flex;
+        justify-content: space-between;
     }
 
-    .opening-hours {
-        margin-right: 28px;
-    }
-
-    .events {
-        margin-left: 30px;
-    }
-
-    .home-page__opening-events {
-        
-    }
 
     /* Exhibitions */
     .exhibitions-grid-container {
-        display: block;
         width: 601px;
     }
 
@@ -255,15 +248,12 @@
         height: 1416px;
     }
 
+
     /* Visit Us */
     .facilities .float {
         float: none;
         width: 580px;
         margin: 0;
-    }
-    
-    .visit-us .opening-hours {
-
     }
     
     .tickets {
@@ -275,9 +265,9 @@
         width: 400px;
     }
 
+
     /* About Us */
     .about {
-        display: block;
         height: 1050px;
         overflow: hidden;
     }
@@ -285,25 +275,15 @@
     .about_text {
         margin-bottom: 40px;
     }
-
-    .about img {
-        height: 100%;
-        width: 100%;
-    }
+    
 
     /* Contact Us */
     .contact {
-        display: block;
         height: 1375px;
     }
 
     .contact h1 {
         padding-top: 30px;
-    }
-
-    .contact img {
-        height: 100%;
-        width: 100%;
     }
 
     .contact_form {
@@ -312,21 +292,124 @@
 }
 
 
-
 @media only screen and (max-width: 600px) {
+    header {
+        width: 500px;
+    }
+
+    nav li {
+        margin-right: 29px;
+    }
+
+    .logo h1 {
+        font-size: 1.5em;
+    }
+
+    .logo p {
+        font-size: 1.1em;
+        margin-left: 240px;
+    }
+    main {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .welcome,
+    .explore__home-page,
+    .facilities,
+    .explore,
+    .robotics,
+    .sky,
+    .evolution,
+    .visit-us,
+    .facilities,
+    .tickets,
+    .about,
+    .contact,
+    .welcome img,
+    .visit-us img,
+    .explore img,
+    .robotics img,
+    .sky img,
+    .evolution img,
+    .visit-us img {
+        width: 480px;
+    }
+
+    .exhibitions-grid-container,
+    .about,
+    .contact {
+        display: block;
+    }
+
+    .contact img,
+    .about img {
+        width: 100%;
+    }
+
+    footer {
+        width: 500px;
+    }
 
 
     /* Home Page */
+    .explore__home-page {
+        height: 425px;
+    }
+
+    .explore__home-page h2 {
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .explore__home-page img {
+        width: 240px;
+    }
+
+    .info__home-page {
+        display: flex;
+        justify-content: space-between;   
+    }
+
+    .info__home-page .opening-hours,
+    .info__home-page .events {
+        width: 170px;
+    }
 
 
     /* Exhibitions */
+    .exhibitions-grid-container {
+        width: 480px;
+    }
 
+    .evolution {
+        height: 1318px;
+    }
 
     /* Visit Us */
 
 
     /* About Us */
+    .about {
+        height: 1050px;
+        overflow: hidden;
+    }
 
+    .about_text {
+        margin-bottom: 40px;
+    }
+    
 
     /* Contact Us */
+    .contact {
+        height: 1305px;
+    }
+
+    .contact h1 {
+        padding-top: 30px;
+    }
+
+    .contact_form {
+        width: 350px;
+    }
 }
