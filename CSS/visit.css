@@ -1,18 +1,19 @@
 main {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 40px;
+  gap: 20px;
 }
 
 .visit-us {
   background-color: var(--turquoise);
-  width: 700px;
   padding-bottom: 20px;
   margin-bottom: 40px;
  }
   
+.visit-us,
+.facilities, 
 .visit-us img {
- width: 700px;
+ width: 680px;
 }
   
 .visit-us-text {
@@ -22,12 +23,11 @@ main {
 .facilities {
   background-color: var(--yellow);
   display: flex;
-  width: 700px;
   height: 608px;
 }
 
 .facilities h2 {
-  margin: 20px 40px;
+  margin: 0px 40px;
   padding-top: 40px;
 }
   

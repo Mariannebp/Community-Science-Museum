@@ -1,5 +1,5 @@
 .exhibitions-grid-container {
-  width: 1008px;
+  width: 988px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas: 
@@ -10,14 +10,14 @@
 
 .explore {
   background-color: var(--yellow);
-  width: 1008px;
   margin-bottom: 40px;
   padding-bottom: 20px;
   grid-area: explore;
 }
 
+.explore,
 .explore img {
-  width: 1008px;
+  width: 988px;
 }
 
 .explore-text {
@@ -27,20 +27,22 @@
 .exhbitions {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 40px;
+  gap: 20px;
   justify-self: center;
 }
 
 .robotics {
   background-color: var(--turquoise);
-  width: 650px;
   margin-bottom: 40px;
   padding-bottom: 20px;
   grid-area: robotics;
 }
 
+.robotics,
+.sky,
+.aky img,
 .robotics img {
-  width: 650px;
+  width: 630px;
 }
 
 .robotics-text {
@@ -49,14 +51,9 @@
 
 .sky {
   background-color: var(--blue);
-  width: 650px;
   margin-bottom: 40px;
   padding-bottom: 20px;
   grid-area: sky;
-}
-
-.sky img {
-  width: 650px;
 }
 
 .sky-text {
@@ -66,19 +63,23 @@
 
 .evolution {
   background-color: var(--orange);
-  width: 290px;
+  width: 280px;
   height: 1193px;
   margin-bottom: 40px;
   grid-area: evolution;
 }
 
-.evolution h2 {
-  padding-top: 20px;
+.evolution,
+.evolution img {
+  width: 290px;
 }
 
 .evolution img {
-  width: 290px;
   margin-bottom: -5px;
+}
+
+.evolution h2 {
+  padding-top: 20px;
 }
 
 .evolution-text {

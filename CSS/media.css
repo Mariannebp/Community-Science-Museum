@@ -5,7 +5,11 @@
 
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
     header {
-        width: 801px;
+        width: 781px;
+    }
+
+    nav li {
+        margin-right: 60px;
     }
 
     main {
@@ -27,7 +31,7 @@
     .facilities,
     .welcome img,
     .visit-us img {
-        width: 580px;
+        width: 560px;
     }
 
     .opening-hours,
@@ -48,21 +52,21 @@
     }
 
     footer {
-        width: 801px;
+        width: 781px;
     }
 
     /* Home Page */
     .explore__home-page {
-        height: 525px;
+        height: 512px;
     }
 
     .explore__home-page img {
-        width: 290px;
+        width: 280px;
     }
 
     /* Exhibitions */
     .exhibitions-grid-container {
-        width: 760px;
+        width: 740px;
     }
 
     .explore {
@@ -71,23 +75,23 @@
 
     .explore,
     .explore img {
-        width: 780px;
+        width: 740px;
     }
 
     .robotics,
     .sky,
     .robotics img,
     .sky img {
-        width: 500px;
+        width: 480px;
     }
 
     .evolution,
     .evolution img {
-        width: 260px;
+        width: 240px;
     }
 
     .evolution {
-        height: 1097px;
+        height: 1137px;
     }
 
     /* Visit Us */
@@ -136,10 +140,6 @@
     }
 
     /* Contact Us */    
-    .contact {
-        margin-left: 20px;
-    }
-
     .form {
         margin: auto 20px auto 40px;
       }
@@ -152,11 +152,11 @@
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
     header {
-        width: 601px;
+        width: 581px;
     }
 
     nav li {
-        margin-right: 50px;
+        margin-right: 45px;
     }
 
     .logo h1 {
@@ -204,7 +204,7 @@
     .sky img,
     .evolution img,
     .visit-us img {
-        width: 580px;
+        width: 540px;
     }
 
     .exhibitions-grid-container,
@@ -220,17 +220,17 @@
     }
 
     footer {
-        width: 601px;
+        width: 581px;
     }
 
 
     /* Home Page */
     .explore__home-page {
-        height: 520px;
+        height: 498px;
     }
 
     .explore__home-page img {
-        width: 290px;
+        width: 270px;
     }
 
     .info__home-page {
@@ -241,11 +241,11 @@
 
     /* Exhibitions */
     .exhibitions-grid-container {
-        width: 601px;
+        width: 581px;
     }
 
     .evolution {
-        height: 1416px;
+        height: 1359px;
     }
 
 

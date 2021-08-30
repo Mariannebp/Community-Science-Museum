@@ -1,18 +1,19 @@
 main {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 40px;
+  gap: 20px;
+}
+
+.welcome,
+.explore__home-page,
+.welcome img {
+  width: 680px;
 }
 
 .welcome {
   background-color: var(--orange);
-  width: 700px;
   padding-bottom: 20px;
   margin-bottom: 40px;
-}
-
-.welcome img {
-  width: 700px;
 }
 
 .welcome-text {
@@ -21,8 +22,7 @@ main {
 
 .explore__home-page {
   background-color: var(--yellow);
-  width: 700px;
-  height: 609px;
+  height: 597px;
   margin-bottom: 40px;
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 .explore__home-page img {
-  width: 350px;
+  width: 340px;
   margin: auto -4px -4px auto;
 }
 
