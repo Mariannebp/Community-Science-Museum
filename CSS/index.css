@@ -22,12 +22,13 @@ main {
 
 .explore__home-page {
   background-color: var(--yellow);
-  height: 597px;
+  height: 576px;
   margin-bottom: 40px;
 }
 
 .explore__home-page h2 {
-  padding: 40px 40px 20px 40px;
+  padding: 30px 40px;
+  margin: 0;
 }
 
 .explore__home-page img {

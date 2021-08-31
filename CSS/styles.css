@@ -42,7 +42,7 @@ header {
 }
 
 header h1 {
-  font-family: "Poppins Extra Bold";
+  
 }
 
 header a,
@@ -58,6 +58,7 @@ footer a {
 }
 
 .logo h1 {
+  font-family: "Poppins Extra Bold";
   font-size: 2em;
   margin: 10px auto 0px auto;
 }

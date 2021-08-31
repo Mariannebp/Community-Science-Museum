@@ -13,6 +13,7 @@
     }
 
     main {
+        width: 760px;
         gap: 20px;
     }
 
@@ -31,7 +32,7 @@
     .facilities,
     .welcome img,
     .visit-us img {
-        width: 560px;
+        width: 540px;
     }
 
     .opening-hours,
@@ -57,11 +58,11 @@
 
     /* Home Page */
     .explore__home-page {
-        height: 512px;
+        height: 478px;
     }
 
     .explore__home-page img {
-        width: 280px;
+        width: 270px;
     }
 
     /* Exhibitions */
@@ -95,10 +96,12 @@
     }
 
     /* Visit Us */
+
+    
     .facilities {
         height: 740px;
         padding-bottom: 0;
-        overflow: hidden;
+        ovrflow: hidden;
     }
     
     .facilities h2,
@@ -109,7 +112,8 @@
     }
 
     .facilities h2 {
-        padding-top: 30px;
+        padding-top: 20px;
+        margin-top: 0;
     }
 
     .facilities h3 {
@@ -118,11 +122,13 @@
     }
     
     .facilities p {
-        margin-top: 0;
+        marin-top: 0;
+        margin: auto 20px 10px 40px;
     }
 
     .facilities img {
-        height: 710px;
+        hight: 710px;
+        width: 300px;
     }
 
     .tickets_form {
