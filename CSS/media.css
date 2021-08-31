@@ -96,12 +96,10 @@
     }
 
     /* Visit Us */
-
-    
     .facilities {
-        height: 740px;
+        height: 490px;
         padding-bottom: 0;
-        ovrflow: hidden;
+        overflow: hidden;
     }
     
     .facilities h2,
@@ -122,13 +120,12 @@
     }
     
     .facilities p {
-        marin-top: 0;
         margin: auto 20px 10px 40px;
     }
 
     .facilities img {
-        hight: 710px;
-        width: 300px;
+        width: 310px;
+        margin-right: -40px;
     }
 
     .tickets_form {
@@ -194,6 +191,7 @@
     .welcome,
     .explore__home-page,
     .facilities,
+    .exhibitions-grid-container,
     .explore,
     .robotics,
     .sky,
@@ -232,7 +230,7 @@
 
     /* Home Page */
     .explore__home-page {
-        height: 498px;
+        height: 478px;
     }
 
     .explore__home-page img {
@@ -246,27 +244,47 @@
 
 
     /* Exhibitions */
-    .exhibitions-grid-container {
-        width: 581px;
-    }
-
     .evolution {
         height: 1359px;
     }
 
 
     /* Visit Us */
-    .facilities .float {
-        float: none;
-        width: 580px;
-        margin: 0;
+    .facilities {
+        height: 490px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+    
+    .facilities h2,
+    .facilities h3,
+    .facilities p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .facilities h2 {
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    .facilities h3 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    .facilities p {
+        margin: auto 20px 10px 40px;
+    }
+
+    .facilities img {
+        width: 310px;
+        margin-right: -40px;
     }
     
     .tickets {
-        width: 520px;
-        margin: 40px;
+        width: 510px;
     }
-
     .tickets_form {
         width: 400px;
     }
