@@ -40,10 +40,6 @@ main {
   margin: auto 40px 20px 40px;
 }
 
-.about img {
-  height: 610px;
-}
-
 .tickets {
   background-color: var(--orange);
   width: 182px;
@@ -58,4 +54,6 @@ main {
   border-radius: 8px;
   display: block;
 }  
+
+
   

@@ -249,7 +249,7 @@
     }
 
 
-    /* Visit Us */
+    /* Visit Us */    
     .facilities {
         height: 490px;
         margin-bottom: 40px;
@@ -282,11 +282,21 @@
         margin-right: -40px;
     }
     
-    .tickets {
-        width: 510px;
+    .visit-us-info {
+        display: flex;
+        justify-content: space-between;
     }
+
+    .visit-us-info .opening-hours {
+        height: 310px;
+    }
+
+    .tickets {
+        width: 210px;
+    }
+
     .tickets_form {
-        width: 400px;
+        width: 190px;
     }
 
 
@@ -411,6 +421,61 @@
     }
 
     /* Visit Us */
+    .facilities {
+        display: block;
+        height: 990px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+    
+    .facilities h2,
+    .facilities h3,
+    .facilities p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .facilities h2 {
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    .facilities h3 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    .facilities p {
+        margin: auto 20px 20px 40px;
+    }
+
+    .facilities-img {
+        overflow: hidden;
+    }
+    
+    .facilities img {
+        width: 100%;
+        margin-top: -130px;
+    }
+
+    .visit-us-info .opening-hours {
+        height: 330px;
+        margin: auto auto 40px auto;
+    }
+
+    .tickets {
+        padding: 10px 0px;
+    }
+
+    .tickets form,
+    .tickets h3,
+    .tickets p {
+        padding-left: 40px;
+    }
+
+    .tickets_form {
+        width: 370px;
+    }
 
 
     /* About Us */
