@@ -244,6 +244,10 @@
         justify-content: space-between;
     }
 
+    .info__home-page .events {
+        height: 297px;
+    }
+
 
     /* Exhibitions */
     .evolution {
