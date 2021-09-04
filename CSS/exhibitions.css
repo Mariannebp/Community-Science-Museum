@@ -1,7 +1,7 @@
 .exhibitions-grid-container {
   width: 988px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr auto;
   grid-template-areas: 
     "explore explore"
     "robotics evolution"
@@ -22,13 +22,6 @@
 
 .explore-text {
   margin: auto 40px;
-}
-
-.exhbitions {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 20px;
-  justify-self: center;
 }
 
 .robotics {
