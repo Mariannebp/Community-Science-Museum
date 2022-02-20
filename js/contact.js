@@ -47,7 +47,7 @@ function checkEmail(email) {
 };
 
 function checkValidation() {
-  if (checkLength(fullName.value, 1) && checkEmail(email.value) && checkLength(textarea.value, 1)) {
+  if (checkLength(fullName.value, 1) && checkEmail(email.value) && checkLength(textarea.value, 10)) {
     message.innerHTML = "Message sent";
   }
 }
