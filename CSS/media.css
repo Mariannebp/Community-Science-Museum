@@ -1,562 +1,566 @@
 @media only screen and (min-width: 1024px) {
-
 }
-
 
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
-    header {
-        width: 780px;
-        margin-left: -390px;
-    }
+  header {
+    width: 780px;
+    margin-left: -390px;
+  }
 
-    nav li {
-        margin-right: 60px;
-    }
+  nav li {
+    margin-right: 60px;
+  }
 
-    main {
-        width: 760px;
-        gap: 20px;
-    }
+  main {
+    width: 760px;
+    gap: 20px;
+  }
 
+  h3 {
+    font-size: 1.1em;
+  }
 
-    h3 {
-        font-size: 1.1em;
-    }
+  p {
+    font-size: 0.9em;
+  }
 
-    p {
-        font-size: 0.9em;
-    }
+  .welcome,
+  .explore__home-page,
+  .visit-us,
+  .facilities,
+  .welcome img,
+  .visit-us img {
+    width: 540px;
+  }
 
-    .welcome,
-    .explore__home-page,
-    .visit-us,
-    .facilities,
-    .welcome img,
-    .visit-us img {
-        width: 540px;
-    }
+  .opening-hours,
+  .events,
+  .tickets {
+    width: 160px;
+    padding: 15px;
+  }
 
-    .opening-hours,
-    .events,
-    .tickets {
-        width: 160px;
-        padding: 15px;
-    }
+  .about,
+  .contact {
+    width: 760px;
+  }
 
-    .about,
-    .contact {
-        width: 760px;
-    }
+  .about h1,
+  .contact h1 {
+    margin-bottom: 20px;
+  }
 
-    .about h1,
-    .contact h1 {
-        margin-bottom: 20px;
-    }
+  footer {
+    width: 780px;
+  }
 
-    footer {
-        width: 780px;
-    }
+  /* Home Page */
+  .explore__home-page {
+    height: 477px;
+  }
 
-    /* Home Page */
-    .explore__home-page {
-        height: 477px;
-    }
+  .explore__home-page img {
+    width: 270px;
+  }
 
-    .explore__home-page img {
-        width: 270px;
-    }
+  /* Exhibitions */
+  .exhibitions-grid-container {
+    width: 740px;
+  }
 
-    /* Exhibitions */
-    .exhibitions-grid-container {
-        width: 740px;
-    }
+  .explore {
+    margin-bottom: 20px;
+  }
 
-    .explore {
-        margin-bottom: 20px;
-    }
+  .explore,
+  .explore img {
+    width: 740px;
+  }
 
-    .explore,
-    .explore img {
-        width: 740px;
-    }
+  .robotics,
+  .sky,
+  .robotics img,
+  .sky img {
+    width: 480px;
+  }
 
-    .robotics,
-    .sky,
-    .robotics img,
-    .sky img {
-        width: 480px;
-    }
+  .evolution,
+  .evolution img {
+    width: 240px;
+  }
 
-    .evolution,
-    .evolution img {
-        width: 240px;
-    }
+  .evolution {
+    height: 1135px;
+  }
 
-    .evolution {
-        height: 1135px;
-    }
+  /* Visit Us */
+  .facilities {
+    height: 490px;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
 
-    /* Visit Us */
-    .facilities {
-        height: 490px;
-        padding-bottom: 0;
-        overflow: hidden;
-    }
-    
-    .facilities h2,
-    .facilities h3,
-    .facilities p {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .facilities h2,
+  .facilities h3,
+  .facilities p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-    .facilities h2 {
-        padding-top: 20px;
-        margin-top: 0;
-    }
+  .facilities h2 {
+    padding-top: 20px;
+    margin-top: 0;
+  }
 
-    .facilities h3 {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    
-    .facilities p {
-        margin: auto 20px 10px 40px;
-    }
+  .facilities h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 
-    .facilities img {
-        width: 310px;
-        margin-right: -40px;
-    }
+  .facilities p {
+    margin: auto 20px 10px 40px;
+  }
 
-    .tickets_form {
-        width: 140px;
-    }
+  .facilities img {
+    width: 310px;
+    margin-right: -40px;
+  }
 
-    /* About Us */
-    .about {
-        height: 570px;
-    }
+  .tickets_form {
+    width: 140px;
+  }
 
-    .about img {
-        width: 380px;
-        height: 570px;
-        margin-left: 10px;
-    }
+  /* About Us */
+  .about {
+    height: 570px;
+  }
 
-    /* Contact Us */    
-    .form {
-        margin: auto 20px auto 40px;
-      }
-    
-    .contact_form {
-        width: 250px;
-    }
+  .about img {
+    width: 380px;
+    height: 570px;
+    margin-left: 10px;
+  }
+
+  /* Contact Us */
+  .form {
+    margin: auto 20px auto 20px;
+  }
+
+  .errorMessage {
+    margin-right: 20px;
+  }
+
+  .contact_form {
+    width: 250px;
+  }
 }
-
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
-    header {
-        width: 580px;
-        margin-left: -290px;
-    }
+  header {
+    width: 580px;
+    margin-left: -290px;
+  }
 
-    nav li {
-        margin-right: 45px;
-    }
+  nav li {
+    margin-right: 45px;
+  }
 
-    .logo h1 {
-        font-size: 1.7em;
-    }
+  .logo h1 {
+    font-size: 1.7em;
+  }
 
-    .logo p {
-        font-size: 1.2em;
-        margin-left: 285px;
-    }
+  .logo p {
+    font-size: 1.2em;
+    margin-left: 285px;
+  }
 
-    main {
-        display: block;
-        margin-top: 220px;
-    }
-    
-    h1 {
-        font-size: 1.4em;
-    }
+  main {
+    display: block;
+    margin-top: 220px;
+  }
 
-    h3 {
-        font-size: 1.1em;
-    }
+  h1 {
+    font-size: 1.4em;
+  }
 
-    p {
-        font-size: 0.9em;
-    }
+  h3 {
+    font-size: 1.1em;
+  }
 
-    .welcome,
-    .explore__home-page,
-    .facilities,
-    .exhibitions-grid-container,
-    .explore,
-    .robotics,
-    .sky,
-    .evolution,
-    .visit-us,
-    .facilities,
-    .tickets,
-    .about,
-    .contact,
-    .welcome img,
-    .visit-us img,
-    .explore img,
-    .robotics img,
-    .sky img,
-    .evolution img,
-    .visit-us img {
-        width: 540px;
-    }
+  p {
+    font-size: 0.9em;
+  }
 
-    .exhibitions-grid-container,
-    .about,
-    .contact {
-        display: block;
-    }
+  .welcome,
+  .explore__home-page,
+  .facilities,
+  .exhibitions-grid-container,
+  .explore,
+  .robotics,
+  .sky,
+  .evolution,
+  .visit-us,
+  .facilities,
+  .tickets,
+  .about,
+  .contact,
+  .welcome img,
+  .visit-us img,
+  .explore img,
+  .robotics img,
+  .sky img,
+  .evolution img,
+  .visit-us img {
+    width: 540px;
+  }
 
-    .contact img,
-    .about img {
-        height: 100%;
-        width: 100%;
-    }
+  .exhibitions-grid-container,
+  .about,
+  .contact {
+    display: block;
+  }
 
-    footer {
-        width: 580px;
-    }
+  .contact img,
+  .about img {
+    height: 100%;
+    width: 100%;
+  }
 
+  footer {
+    width: 580px;
+  }
 
-    /* Home Page */
-    .explore__home-page {
-        height: 477px;
-    }
+  /* Home Page */
+  .explore__home-page {
+    height: 477px;
+  }
 
-    .explore__home-page img {
-        width: 270px;
-    }
+  .explore__home-page img {
+    width: 270px;
+  }
 
-    .info__home-page {
-        display: flex;
-        justify-content: space-between;
-    }
+  .info__home-page {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .info__home-page .events {
-        height: 297px;
-    }
+  .info__home-page .events {
+    height: 297px;
+  }
 
+  /* Exhibitions */
+  .evolution {
+    height: 1357px;
+  }
 
-    /* Exhibitions */
-    .evolution {
-        height: 1357px;
-    }
+  /* Visit Us */
+  .facilities {
+    height: 490px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
 
-    /* Visit Us */    
-    .facilities {
-        height: 490px;
-        margin-bottom: 40px;
-        overflow: hidden;
-    }
-    
-    .facilities h2,
-    .facilities h3,
-    .facilities p {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .facilities h2,
+  .facilities h3,
+  .facilities p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-    .facilities h2 {
-        padding-top: 20px;
-        margin-top: 0;
-    }
+  .facilities h2 {
+    padding-top: 20px;
+    margin-top: 0;
+  }
 
-    .facilities h3 {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    
-    .facilities p {
-        margin: auto 20px 10px 40px;
-    }
+  .facilities h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 
-    .facilities img {
-        width: 310px;
-        margin-right: -40px;
-    }
-    
-    .visit-us-info {
-        display: flex;
-        justify-content: space-between;
-    }
+  .facilities p {
+    margin: auto 20px 10px 40px;
+  }
 
-    .visit-us-info .opening-hours {
-        height: 310px;
-    }
+  .facilities img {
+    width: 310px;
+    margin-right: -40px;
+  }
 
-    .tickets {
-        width: 210px;
-    }
+  .visit-us-info {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .tickets_form {
-        width: 190px;
-    }
+  .visit-us-info .opening-hours {
+    height: 310px;
+  }
 
+  .tickets {
+    width: 210px;
+  }
 
-    /* About Us */
-    .about {
-        display: flex;
-        height: 650px;
-        overflow: hidden;
-    }
+  .tickets_form {
+    width: 190px;
+  }
 
-    .about_text {
-        margin: auto 20px 40px auto;
-        width: 600px;
-    }
-    
-    .about-img {
-        overflow: hidden;
-    }
+  /* About Us */
+  .about {
+    display: flex;
+    height: 650px;
+    overflow: hidden;
+  }
 
-    .about-img img {
-        width: 420px;
-        margin-left: -80px;
-    }
+  .about_text {
+    margin: auto 20px 40px auto;
+    width: 600px;
+  }
 
-    /* Contact Us */
-    .contact {
-        height: 1210px;
-    }
+  .about-img {
+    overflow: hidden;
+  }
 
-    .contact h1 {
-        padding-top: 30px;
-    }
+  .about-img img {
+    width: 420px;
+    margin-left: -80px;
+  }
 
-    .contact_form {
-        width: 450px;
-    }
+  /* Contact Us */
+  .contact {
+    height: 1220px;
+  }
 
-    .contact-img {
-        overflow: hidden;
-    }
+  .contact h1 {
+    padding-top: 30px;
+  }
 
-    .contact img {
-        margin-top: -150px;
-    }
+  .contact_form {
+    width: 450px;
+  }
+
+  .contact-img {
+    overflow: hidden;
+  }
+
+  .contact img {
+    margin-top: -150px;
+  }
+
+  .errorMessage {
+    margin-right: -5px;
+  }
 }
 
+footer {
+  margin-top: 50px;
+}
 
 @media only screen and (max-width: 600px) {
-    header {
-        width: 500px;
-        margin-left: -250px;
-    }
+  header {
+    width: 500px;
+    margin-left: -250px;
+  }
 
-    nav li {
-        margin-right: 29px;
-    }
+  nav li {
+    margin-right: 29px;
+  }
 
-    .logo h1 {
-        font-size: 1.5em;
-    }
+  .logo h1 {
+    font-size: 1.5em;
+  }
 
-    .logo p {
-        font-size: 1.1em;
-        margin-left: 240px;
-    }
-    main {
-        display: block;
-        margin-top: 220px;
-    }
+  .logo p {
+    font-size: 1.1em;
+    margin-left: 240px;
+  }
+  main {
+    display: block;
+    margin-top: 220px;
+  }
 
-    .welcome,
-    .explore__home-page,
-    .facilities,
-    .explore,
-    .robotics,
-    .sky,
-    .evolution,
-    .visit-us,
-    .facilities,
-    .tickets,
-    .about,
-    .contact,
-    .welcome img,
-    .visit-us img,
-    .explore img,
-    .robotics img,
-    .sky img,
-    .evolution img,
-    .visit-us img {
-        width: 480px;
-    }
+  .welcome,
+  .explore__home-page,
+  .facilities,
+  .explore,
+  .robotics,
+  .sky,
+  .evolution,
+  .visit-us,
+  .facilities,
+  .tickets,
+  .about,
+  .contact,
+  .welcome img,
+  .visit-us img,
+  .explore img,
+  .robotics img,
+  .sky img,
+  .evolution img,
+  .visit-us img {
+    width: 480px;
+  }
 
-    .exhibitions-grid-container,
-    .about,
-    .contact {
-        display: block;
-    }
+  .exhibitions-grid-container,
+  .about,
+  .contact {
+    display: block;
+  }
 
-    .contact img,
-    .about img {
-        width: 100%;
-    }
+  .contact img,
+  .about img {
+    width: 100%;
+  }
 
-    footer {
-        width: 500px;
-    }
+  footer {
+    width: 500px;
+  }
 
+  /* Home Page */
+  .explore__home-page {
+    height: 425px;
+  }
 
-    /* Home Page */
-    .explore__home-page {
-        height: 425px;
-    }
+  .explore__home-page h2 {
+    padding-top: 30px;
+    margin-bottom: 0;
+  }
 
-    .explore__home-page h2 {
-        padding-top: 30px;
-        margin-bottom: 0;
-    }
+  .explore__home-page img {
+    width: 240px;
+  }
 
-    .explore__home-page img {
-        width: 240px;
-    }
+  .info__home-page {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .info__home-page {
-        display: flex;
-        justify-content: space-between;   
-    }
+  .info__home-page .opening-hours,
+  .info__home-page .events {
+    width: 170px;
+  }
 
-    .info__home-page .opening-hours,
-    .info__home-page .events {
-        width: 170px;
-    }
+  /* Exhibitions */
+  .exhibitions-grid-container {
+    width: 480px;
+  }
 
+  .evolution {
+    height: 1318px;
+  }
 
-    /* Exhibitions */
-    .exhibitions-grid-container {
-        width: 480px;
-    }
+  /* Visit Us */
+  .facilities {
+    display: block;
+    height: 990px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
 
-    .evolution {
-        height: 1318px;
-    }
+  .facilities h2,
+  .facilities h3,
+  .facilities p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-    /* Visit Us */
-    .facilities {
-        display: block;
-        height: 990px;
-        margin-bottom: 40px;
-        overflow: hidden;
-    }
-    
-    .facilities h2,
-    .facilities h3,
-    .facilities p {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .facilities h2 {
+    padding-top: 20px;
+    margin-top: 0;
+  }
 
-    .facilities h2 {
-        padding-top: 20px;
-        margin-top: 0;
-    }
+  .facilities h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 
-    .facilities h3 {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    
-    .facilities p {
-        margin: auto 20px 20px 40px;
-    }
+  .facilities p {
+    margin: auto 20px 20px 40px;
+  }
 
-    .facilities-img {
-        overflow: hidden;
-    }
-    
-    .facilities img {
-        width: 100%;
-        margin-top: -130px;
-    }
+  .facilities-img {
+    overflow: hidden;
+  }
 
-    .visit-us-info .opening-hours {
-        height: 330px;
-        margin: auto auto 40px auto;
-    }
+  .facilities img {
+    width: 100%;
+    margin-top: -130px;
+  }
 
-    .tickets {
-        padding: 10px 0px;
-    }
+  .visit-us-info .opening-hours {
+    height: 330px;
+    margin: auto auto 40px auto;
+  }
 
-    .tickets form,
-    .tickets h3,
-    .tickets p {
-        padding-left: 40px;
-    }
+  .tickets {
+    padding: 10px 0px;
+  }
 
-    .tickets_form {
-        width: 370px;
-    }
+  .tickets form,
+  .tickets h3,
+  .tickets p {
+    padding-left: 40px;
+  }
 
+  .tickets_form {
+    width: 370px;
+  }
 
-    /* About Us */
-    .about {
-        display: flex;
-        height: 840px;
-        overflow: hidden;
-    }
-    
-    .about h1 {
-        margin: 30px 40px;
-    }
+  /* About Us */
+  .about {
+    display: flex;
+    height: 840px;
+    overflow: hidden;
+  }
 
-    .about p {
-        margin-right: 30px;
-    }
+  .about h1 {
+    margin: 30px 40px;
+  }
 
-    .about-img {
-        width: 180px;
-        overflow: hidden;
-    }
+  .about p {
+    margin-right: 30px;
+  }
 
-    .about-img img {
-        height: 950px;
-        width: 700px;
-        margin-left: -150px;
-        margin-top: -80px;
-    }
+  .about-img {
+    width: 180px;
+    overflow: hidden;
+  }
 
-    .about_text {
-        width: 300px;
-        margin: 20px 0 40px 0;
-    }
-    
+  .about-img img {
+    height: 950px;
+    width: 700px;
+    margin-left: -150px;
+    margin-top: -80px;
+  }
 
-    /* Contact Us */
-    .contact {
-        height: 1072px;
-        overflow: hidden;
-    }
+  .about_text {
+    width: 300px;
+    margin: 20px 0 40px 0;
+  }
 
-    .contact h1 {
-        padding-top: 30px;
-        margin-top: 0;
-    }
+  /* Contact Us */
+  .contact {
+    height: 1072px;
+    overflow: hidden;
+  }
 
-    .contact_form {
-        width: 350px;
-    }
+  .contact h1 {
+    padding-top: 30px;
+    margin-top: 0;
+  }
 
-    .contact-img {
-        overflow: hidden;
-    }
+  .contact_form {
+    width: 350px;
+  }
 
-    .contact img {
-        width: 480px;
-        margin-top: -120px;
-    }
+  .contact-img {
+    overflow: hidden;
+  }
+
+  .contact img {
+    width: 480px;
+    margin-top: -120px;
+  }
+}
+
+.errorMessage {
+  margin-right: 30px;
 }
