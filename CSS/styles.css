@@ -35,9 +35,7 @@ h3 {
 
 header {
   position: fixed;
-  left: 50%;
-  margin-left: -502px;
-  z-index: 1;
+  z-index: 1; 
   top: 0px;
   background-color: var(--white);
   width: 1004px;
@@ -92,7 +90,7 @@ main {
 
 footer {
   width: 1004px;
-  margin: auto auto 0 auto;
+  margin: 40px auto 0 auto;
   text-align: center;
   display: flex;
   justify-content: center;

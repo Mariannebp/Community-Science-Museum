@@ -1,8 +1,13 @@
+.contact,
+.contact img {
+  height: 650px;
+}
+
 .contact {
   background-color: var(--turquoise);
   display: flex;
   width: 920px;
-  height: 650px;
+  
 }
 
 .contact h1 {
@@ -14,7 +19,7 @@
 }
 
 .contact img {
-  height: 650px;
+  width: fit-content;
 }
 
 .message {
@@ -26,21 +31,25 @@
   width: 110px;
 }
 
+.form,
+.contact_form,
+textarea {
+  width: 300px;
+}
+
 .form {
   margin: auto 40px;
 }
 
 .contact_form {
-  width: 300px;
-  margin: 0 -5px;
-  padding: 10px;
+  margin: 0;
+  padding: 10px 0;
   border-radius: 8px;
   display: block;
 }
 
 textarea {
   height: 100px;
-  width: 300px;
 }
 
 button {
@@ -54,10 +63,9 @@ button {
 }
 
 .errorMessage {
-  margin-top: -10px;
-  margin-right: 100px;
+  margin: -10px 0 auto auto;
   font-size: small;
   text-align: right;
-  color: var(--dark-blue);
+  color: var(--blue);
   display: none;
 }

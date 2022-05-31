@@ -16,6 +16,10 @@ main {
   margin-bottom: 40px;
 }
 
+.welcome img {
+  height: 100%;
+}
+
 .welcome-text {
   margin: auto 40px;
 }

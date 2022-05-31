@@ -11,7 +11,7 @@ const textareaError = document.querySelector("#errorMessage_textarea")
 function sendForm(event) {
   event.preventDefault();
 
-  if (checkLength(fullName.value, 1)) {
+  if (checkLength(fullName.value, 5)) {
     fullNameError.style.display = "none";
   } else {
     fullNameError.style.display = "block";
@@ -47,7 +47,7 @@ function checkEmail(email) {
 };
 
 function checkValidation() {
-  if (checkLength(fullName.value, 1) && checkEmail(email.value) && checkLength(textarea.value, 10)) {
+  if (checkLength(fullName.value, 5) && checkEmail(email.value) && checkLength(textarea.value, 10)) {
     message.innerHTML = "Message sent";
   }
 }
