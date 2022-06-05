@@ -380,8 +380,8 @@
     width: 303px;
   }
 
-  header {
-    margin: 0;
+  main {
+    margin: auto;
   }
 
   nav li {
@@ -391,7 +391,6 @@
 
   .logo {
     padding: 15px 20px;
-    widh: 100%;
   }
 
   .logo h1 {
