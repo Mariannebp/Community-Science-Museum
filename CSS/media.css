@@ -14,10 +14,6 @@
     margin-right: 60px;
   }
 
-  /* main {
-    gap: 10px;
-  } */
-
   h3 {
     font-size: 1.1em;
   }
@@ -384,6 +380,10 @@
     width: 303px;
   }
 
+  header {
+    margin: auto;
+  }
+
   nav li {
     margin-right: 40px;
     font-size: 0.9em;
@@ -460,7 +460,7 @@
   /* Exhibitions */
 
   .evolution {
-    height: 1318px;
+    height: 1087px;
   }
 
   /* Visit Us */
@@ -516,7 +516,7 @@
   }
 
   .tickets p {
-    margin: auto 10px;
+    margin: auto 10px 15px 10px;
   }
 
   .tickets form {
