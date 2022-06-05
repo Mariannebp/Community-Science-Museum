@@ -19,7 +19,7 @@ This website was my first semester project at Noroff. The assignment was to crea
 
 ## Improved since delivery
 
-- Adjusted responisveness due to new knowledge and standards.
+- Adjusted responsiveness due to new knowledge and standards.
 
 ## Link to the website
 
