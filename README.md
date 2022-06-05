@@ -2,9 +2,9 @@
 
 ![Screen shot of project](/images/Community-science-museum-topless_edt1.jpg)
 
-Type: Semester Project 1
-When: spring/fall 2021
-Where: Front End Development course, Noroff.
+- Type: Semester Project 1
+- When: spring/fall 2021
+- Where: Front End Development course, Noroff - School of technology and digital media.
 
 ## Description
 
@@ -16,14 +16,11 @@ This website was my first semester project at Noroff. The assignment was to crea
 
 - HTML
 - CSS
-- JavaScript
 
 ## Improved since delivery
 
 - Adjusted responisveness due to new knowledge and standards.
 
-## Want to improve in the future
+## Link to the website
 
--
-
-## Credits
+https://nervous-montalcini-5d14b4.netlify.app/index.html
