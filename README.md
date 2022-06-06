@@ -31,16 +31,22 @@ This website was my first semester project at Noroff. The assignment was to crea
 - HTML
 - CSS
 
-## Improved since delivery
+## Improvements
+
+### Improved since delivery
 
 - Adjusted responsiveness due to new knowledge and standards.
 
-## Want to improve
+### What I want to improve
 
 - Add a map in the footer showing the museums location
 
-## Link to the website
+## Contact
 
+Email: 
+mariannebpedersen@gmail.com
+
+Link to the project website: 
 https://nervous-montalcini-5d14b4.netlify.app/index.html
 
 ## Acknowledgements
