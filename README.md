@@ -18,13 +18,13 @@ This website was my first semester project at Noroff. The assignment was to crea
 
 1. Clone the repo:
 
-    https://github.com/Mariannebp/Community-Science-Museum.git
+    `git clone https://github.com/Mariannebp/Community-Science-Museum.git`
 
-2. _`npm install`_
+2. `npm install`
 
 ### Running
 
-3. npm run start
+3. `npm run start`
 
 ## Built with
 
