@@ -8,7 +8,7 @@
 
 ## Description
 
-The Community Science Museum is a website for a new museum coming near you. Here viewers will find information about what the museum has to offer, both in type of exhibitions and of the museums facilities. Vickitors are also able to contact the museum tickets and other questions or feedbak
+The Community Science Museum is a website for a new museum coming near you. Here visitors will find information about what the museum has to offer, both in type of exhibitions and of the museums facilities. Visitors are also able to contact the museum for tickets and other questions or feedback.
 
 This website was my first semester project at Noroff. The assignment was to create a website for the Community Science Museum using HTML and CSS. The target group were school children aged 7-15, and families. The site should be informative and engaging, but also encourage the viewers to come visit the actual museum. We were given a folder with images and text we could use.
 
@@ -34,6 +34,10 @@ This website was my first semester project at Noroff. The assignment was to crea
 ## Improved since delivery
 
 - Adjusted responsiveness due to new knowledge and standards.
+
+## Want to improve
+
+- Add a map in the footer showing the museums location
 
 ## Link to the website
 
