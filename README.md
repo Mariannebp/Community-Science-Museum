@@ -20,7 +20,7 @@ This website was my first semester project at Noroff. The assignment was to crea
 
     https://github.com/Mariannebp/Community-Science-Museum.git
 
-2. _`\{npm install}\`_
+2. _`npm install`_
 
 ### Running
 
