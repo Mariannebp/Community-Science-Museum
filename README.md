@@ -25,21 +25,13 @@ This website was my first semester project at Noroff. The assignment was to crea
 
     `git clone https://github.com/Mariannebp/Community-Science-Museum.git`
 
-2. `npm install`
-
-### Running
-
-3. `npm run start`
+2. `npm i`
 
 ## Improvements
 
 #### Improved since delivery
 
 - Adjusted responsiveness due to new knowledge and standards.
-
-#### What I want to improve
-
-- Add a map in the footer showing the museums location
 
 ## Contact
 
